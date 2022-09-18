@@ -1,0 +1,82 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh !important;
+}
+
+/* ================================================================= */
+/* For Active link or Component Highlight ----------------------------- */
+
+.active{
+  color: #20a3d9 !important;
+  font-weight: bold !important;
+}
+
+/* For Home Section -------------- */
+.home_sect{
+  background-image: linear-gradient(to right,#dff6ffd4 50%,white 50%);
+
+}
+
+  /* ============================================================================ */
+  /* For Forms ---------------------------------------- */
+
+.form_field{
+  padding: 5px;
+  box-shadow: 1px 1px 3px grey;
+  display: flex;
+  overflow-x: hidden;
+}
+.form_field label{
+  padding: 0px 5px;
+
+}
+.form_field input{
+  border: none;
+  font-weight: 500;
+  width: 90%;
+  padding: 0px 5px;
+}
+
+.form_field input:focus{
+  outline: none;
+}
+
+
+    /* Login Form -------------------- */ 
+    /* Registretion Form -------------------- */
+    /* Contact Form ----------------- */
+.message_btn,
+.submit_btn,
+.login_btn {
+  padding: 5px 10px;
+  border: none;
+  background: #20a3d9 ;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, .2);
+  border: .3px solid #20a3d9;
+}
+
+.message_btn:active,
+.submit_btn:active,
+.login_btn:active {
+  background: white ;
+  color: #20a3d9;
+  border: .3px solid grey;
+  box-shadow: none;
+}
+
+
+/* Nav Bar ------------------------------ */
+
+.nav-link {
+  color: rgba(0, 0, 0, .7);
+  font-weight: 500 ;
+}
